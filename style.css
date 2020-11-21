@@ -1,0 +1,195 @@
+body {
+  font-size: 16px;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+h1{
+    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin: 15% 7% 7% 8%;
+
+  }
+  h2{
+  
+    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin-top: 6%;
+
+  
+  }
+h3{
+  
+  
+  font-family: 'Fredoka One', serif; 
+  font-size: 1.3rem;
+}
+p{
+  color:#343a40;
+   font-weight: bold;
+
+}
+  .navbar-brand {
+font-family: 'Dancing Script', cursive;
+font-size: 3em;
+margin-left: 3%;
+color: white;
+font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  
+  color: white;
+font-weight: bold;
+}
+
+.row{
+  width: 100%;
+
+}
+
+.nav-item{
+  padding: 0px 18px;
+}
+.nav-link{
+  font-family:"Montserrat";
+  font-size:1.2rem;
+  
+  margin-right: 30px;
+  text-align: center;
+   color: white;
+
+  
+}
+
+  .container-fluid{
+    padding:4% 8%;
+  
+  }
+  .blue{
+    color: #271c85;
+  }
+  .btn,.btn-danger{
+    background-color: #9c061f;
+    border-radius: 10px;
+  border: 0;
+  margin: auto;
+  
+  
+  display: flex;
+
+  
+  }
+  .Image1{
+    
+    width: 400px;
+    height: 380px;
+margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+.container{
+  margin: 4% 5%;
+  text-align: center;
+}
+#com{
+  text-align: center;
+  margin-right:  0px;
+  margin-left:0px;
+  margin-top: 50px;
+
+}
+/*features section*/
+
+.features{
+  
+  padding: 3% 15%;
+ 
+}
+.feature-box{
+  text-align: center;
+  padding: 4%;
+}
+.icon{
+  color: #9c061f;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #343a40;
+}
+.feature-box2{
+ 
+  background-color: #f8f9fa;
+
+  padding: 4.5%;
+  margin:auto;
+}
+.icon2{
+  border-radius: 50%;
+  
+  color: #4ea0ed;
+  margin-bottom: 1rem;
+}
+.icon2:hover{
+  color: #343a40;
+}
+.next{
+  margin-top: 40px;
+}
+
+/*book your classes part*/
+h4{
+  
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.book{
+  margin-top: 20px;
+  
+  
+}
+.download-button{
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: #271c85; 
+  display:flex;
+  padding: 15px;
+}
+.foot{
+  background-color: #343a40;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
