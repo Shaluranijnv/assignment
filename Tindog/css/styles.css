@@ -1,0 +1,164 @@
+body{
+	font-family: 'Dancing-Script', sans-serif;
+	text-align: center;
+}
+#title{
+	background-color: #ff4c68;/*#fc0339; */
+	color: #fff;
+	text-align: left;
+}
+.container-fluid{
+	padding: 7% 15%;
+
+}
+.row{
+	width: 100%;
+}
+h2{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+h3{
+	font-size: 1.3rem;
+}
+p{
+	color: #8f8f8f;
+
+}
+/* headings */
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Fredoka One', serif;
+	
+}
+.big-heading{
+	font-family: 'Fredoka One', serif;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+/*Navigation Bar*/
+.navbar{
+	padding:0 0 4.5rem;
+	
+}
+.navbar-brand{
+	font-family: 'Ubuntu';
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.nav-item{
+	padding: 0px 18px;
+
+}
+.nav-link{
+	font-family:"Montserrat";
+	font-size:1.2rem;
+	font-weight: bold;
+}
+/* title section*/
+
+.download-button{
+	margin: 5% 3% 5% 0;
+}
+
+#title .container-fluid{
+	padding: 3% 15% 7%;
+}
+
+.title-image{
+width: 60%;
+transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+right: 30%;
+position: absolute;
+}
+/*features section*/
+
+#features{
+	
+	background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+	padding: 5%;
+}
+.icon{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+.icon:hover{
+	color: #ff4c68;
+}
+
+/*testimonial section*/
+
+#testimonials{
+	
+
+	background-color: #ef8172;
+	color: #fff;
+}
+.testimonial-image{
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+/*press section*/
+#press{
+	background-color: #ef8172;
+	padding-bottom: 3%;
+
+}
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+	padding: 8%;
+}
+.pricing-column{
+	padding: 3% 2%;
+}
+.price-text{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+/* call to action */
+#cta{
+	background-color: #ff4c68;
+	
+	color: #fff;
+
+}
+#cta-heading{
+	font-size: 3.5rem;
+	line-height: 1.5;
+	
+}
+.social-icon{
+	margin: 20px 10px;
+}
+
+/*media query */
+@media(max-width: 1200px){
+
+}
+@media(max-width: 997px){
+	.title-image{
+
+position: static;
+transform: rotate(0); 
+}
+#title{
+	text-align: center;
+
+}
+}
+@media(max-width: 768px){
+	
+}
+@media(max-width: 500px){
+	
+}
