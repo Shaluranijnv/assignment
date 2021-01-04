@@ -117,7 +117,7 @@ div.about{
 
 .about p{
 	color:#404040;
-	font-size:.8rem;
+	font-size:1rem;
 }
 .fa-angle-down{
 	float: right;
@@ -153,6 +153,10 @@ color:#404040;
 }
 .post-img{
 	height: 100px;
+}
+#post-para p{
+	font-size: 1rem;
+	line-height: 1.5rem;
 }
 #post-img{
 	height: 600px;
