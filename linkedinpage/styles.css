@@ -153,28 +153,28 @@ color:#404040;
 }
 #post-img{
 	height: 700px;
-	margin-top: 80px;
-position: relative;
- z-index: -1;
- margin: 0;
 }
-
+.post-img-div{
+	text-align: center;
+	height: 700px;
+	position: relative;
+	margin-top: 120px;
+	z-index: -1;
+}
 #post-para hr{
 	width: 100%;
 	margin:0;
 
 }
 .table-para{
-font-size: 2.5rem;
-	line-height: 1rem;
+font-size: 2rem;
+	line-height: 1.5rem;
 	color: #404040;
+margin: 10px;
 
-margin-top:8px;
-margin-bottom: 8px;
-padding: 8px;
 }
 #post-para{
-	margin-left: 10px;
+	margin-left: 30px;
 	position: absolute;
 	color: #404040;
 
@@ -186,16 +186,12 @@ padding: 8px;
 
 }
 
-.post-img-div{
-	text-align: center;
-	height: 700px;
-}
 #below-post-link{
 	background-color: #fff;
 	text-align: left;
 	position: relative;
-	
-margin-left: 10px;
+	top: -60px;
+margin-left: 30px;
 	margin-bottom: 0;
 	z-index: 2;
 	
@@ -213,8 +209,8 @@ margin-left: 10px;
 	display: none;
 }
 h3{
-	font-size: 2.5rem;
+	margin: 10px;
+	font-size: 3rem;
 	color: black;
-	margin-top: 10px;
-	margin-bottom: 8px;
+	
 }
