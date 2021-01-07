@@ -1149,7 +1149,7 @@ margin-left: 65px;
 }
 #vid{
 	position: absolute;
-	top: 115px;
+	top: 110px;
 	width: 100%;
 	background-color: black;
 	height: 400px;
@@ -1164,7 +1164,7 @@ margin-left: 65px;
 }
 .reactions-box {
   height: 50px;
-  width: 350px;
+  width: 160px;
   padding: 10px;
   position: absolute;
   top: -20px;
@@ -1172,12 +1172,48 @@ margin-left: 65px;
   box-shadow: 1px 1px 2px #cccccc, -1px 0px 2px #eeeeee;
   border-radius: 44px 44px;
   display: none;
+}.reaction-like {
+  left: 0px;
+  transition-delay: 0s;
+  background-image: url('reactions_like.png');
 }
+
+.reaction-love {
+  left: 25px;
+  transition-delay: .05s;
+  background-image: url('reactions_love.png');
+}
+
+.reaction-haha {
+  left: 50px;
+  transition-delay: .1s;
+  background-image: url('reactions_haha.png');
+}
+
+.reaction-wow {
+  left: 75px;
+  transition-delay: .15s;
+  background-image: url('reactions_wow.png');
+}
+
+.reaction-sad {
+  left: 100px;
+  transition-delay: .2s;
+  background-image: url('reactions_sad.png');
+}
+
+.reaction-angry {
+  left: 125px;
+  transition-delay: .25s;
+  background-image: url('reactions_angry.png');
+}
+
+
 #separate{
   width: 100%;
   margin: 0;
   position: absolute;
-  top: 475px;
+  top: 465px;
 
 }
 .like-btn {
@@ -1232,14 +1268,14 @@ max-width: 100%;
   width: 100%;
   margin: 0;
   position: absolute;
-  top: 680px;
+  top: 660px;
 
 }
 #fou{
   width: 100%;
   margin: 0;
   position: absolute;
-  top: 770px;
+  top: 760px;
 
 }
 #comments img{
