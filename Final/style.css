@@ -24,7 +24,7 @@ border-radius: 50px;
 #name{
 	margin-top: 60px;
 color: black;
-font-size: 1.5rem;
+font-size: 3rem;
 }
 .fa-check-circle{
 	color: #008abf;
@@ -79,7 +79,7 @@ margin-left: 160px;
   position: relative;
   top: 30px;
   background-color: #f1f1f1;
-  min-width: 180px;
+  min-width: 200px;
  padding: 15px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -89,8 +89,8 @@ margin-left: 160px;
 .dropdown-content a {
   color: black;
   padding:8px;
-  font-size: 1rem;
-  line-height: 1rem;
+  font-size: 2.7rem;
+  line-height: 2rem;
   margin-bottom: 0;
   text-decoration: none;
   display: block;
@@ -106,8 +106,8 @@ margin-left: 160px;
 .def{
 	margin:0 8px 8px;
 	padding: 0;
-	font-size: 0.8rem;
-	line-height: 1rem;
+	font-size: 2rem;
+	line-height: 1.4rem;
 	color: #8f8f8f;
 	
 }
@@ -165,6 +165,7 @@ width: 100%;
 	position: absolute;
   top: 1053px;
   left: 20px;
+  font-size: 2.5rem;
 }
 #comments img{
 	width: 100px;
@@ -544,7 +545,7 @@ border-radius: 50px;
 #name{
 	margin-top: 60px;
 color: black;
-font-size: 1.5rem;
+font-size: 3rem;
 }
 .fa-check-circle{
 	color: #008abf;
@@ -565,7 +566,7 @@ margin-left: 160px;
 #datetime{
 	color: #8f8f8f;
 	margin-top: 0;
-	font-size: 1.2rem;
+	font-size: 2rem;
 }
 #set{
 	vertical-align: middle;
@@ -590,7 +591,7 @@ margin-left: 160px;
   position: relative;
   top: 30px;
   background-color: #f1f1f1;
-  min-width: 180px;
+  min-width: 300px;
  padding: 15px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -600,8 +601,8 @@ margin-left: 160px;
 .dropdown-content a {
   color: black;
   padding:8px;
-  font-size: 1rem;
-  line-height: 1rem;
+  font-size: 2.7rem;
+  line-height: 2rem;
   margin-bottom: 0;
   text-decoration: none;
   display: block;
@@ -617,8 +618,8 @@ margin-left: 160px;
 .def{
 	margin:0 8px 8px;
 	padding: 0;
-	font-size: 0.8rem;
-	line-height: 1rem;
+	font-size: 2rem;
+	line-height: 1.4rem;
 	color: #8f8f8f;
 	
 }
@@ -646,6 +647,7 @@ position: absolute;
 	margin: 10px 50px;
 	position: absolute;
 	top: 130px;
+	font-size: 2rem;
 }
 .reactions-box {
   height: 50px;
@@ -714,6 +716,7 @@ max-width: 100%;
 	position: absolute;
   top: 1038px;
   left: 20px;
+   font-size: 2.5rem;
 }
 #thi{
   width: 100%;
@@ -729,11 +732,7 @@ max-width: 100%;
   top: 1185px;
 
 }
-#shares{
-	position: absolute;
-  top: 1053px;
-  left: 20px;
-}
+
 #comments img{
 	width: 100px;
 	height: 100px;
@@ -748,7 +747,7 @@ max-width: 100%;
 .btn-primary{
 	height: 70px;
 	width: 80px;
-	font-size: 2rem;
+	font-size: 3rem;
 	margin-left: 30px;
 	margin: 0;
 }
@@ -773,7 +772,7 @@ max-width: 100%;
 	background-color: #909090;
 	padding: 10px;
 	border-radius: 20px;
-
+   font-size: 2rem;
 }
 #thi{
   width: 100%;
@@ -806,7 +805,7 @@ border-radius: 50px;
 #name{
 	margin-top:50px;
 color: black;
-font-size: 1.5rem;
+font-size: 3rem;
 }
 .fa-check-circle{
 	color: #008abf;
@@ -828,7 +827,7 @@ margin-left: 120px;
 #datetime{
 	color: #8f8f8f;
 	margin-top: 0;
-	font-size: 1rem;
+	font-size: 2rem;
 }
 #set{
 	vertical-align: middle;
@@ -836,7 +835,7 @@ margin-left: 120px;
 	height: 20px;
 }
 .dropbtn {
-  font-size: 1.5rem;
+  font-size: 3rem;
   cursor: pointer;
 }
 
@@ -872,8 +871,8 @@ margin-left: 120px;
 .dropdown-content a {
   color: black;
   padding:5px;
-  font-size: 0.8rem;
-  line-height: 1rem;
+  font-size: 2.2rem;
+  line-height: 1.5rem;
   margin-bottom: 0;
   text-decoration: none;
   display: block;
@@ -889,8 +888,8 @@ margin-left: 120px;
 .def{
 	margin:0 6px 6px;
 	padding: 0;
-	font-size: 0.8rem;
-	line-height: 1rem;
+	font-size: 2.2rem;
+	line-height: 1.8rem;
 	color: #8f8f8f;
 	
 }
@@ -982,6 +981,7 @@ max-width: 100%;
 	position: absolute;
   top: 918px;
   left: 10px;
+   font-size: 2rem;
 }
 #thi{
   width: 100%;
@@ -1050,15 +1050,15 @@ z-index:7;
 left:20px;
 top:20px;
 position: absolute;
-width: 60px;
-height: 60px;
+width: 80px;
+height: 80px;
 border-radius: 50px;	
 margin-bottom: 0;
 }
 #name{
 	margin-top: 34px;
 color: black;
-font-size: 1.4rem;
+font-size: 2rem;
 margin-bottom: 0: 
 font-weight:bold;
 }
@@ -1075,14 +1075,14 @@ font-weight:bold;
 }
 .username{
 margin-bottom: 5px;
-margin-left: 90px;
+margin-left: 110px;
 
 
 }
 #datetime{
 	color: #8f8f8f;
 	margin-top: 0;
-	font-size: .9rem;
+	font-size:1.5rem;
 }
 #set{
 	vertical-align: middle;
@@ -1090,7 +1090,7 @@ margin-left: 90px;
 	height: 20px;
 }
 .dropbtn {
-  font-size: 1rem;
+  font-size: 3rem;
   cursor: pointer;
  margin: 0;
 }
@@ -1108,7 +1108,7 @@ margin-left: 90px;
   position: relative;
   top: 29px;
   background-color: #f1f1f1;
-  max-width: 100px;
+  max-width: 200px;
  padding: 10px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -1118,8 +1118,8 @@ margin-left: 90px;
 .dropdown-content a {
   color: black;
   padding:5px;
-  font-size: 0.8rem;
-  line-height: 1rem;
+  font-size: 2rem;
+  line-height: 1.5rem;
   margin-bottom: 0;
   text-decoration: none;
   display: block;
@@ -1135,8 +1135,8 @@ margin-left: 90px;
 .def{
 	margin:0 6px 6px;
 	padding: 0;
-	font-size: 0.8rem;
-	line-height: 1rem;
+	font-size: 1.5rem;
+	line-height: 1.2rem;
 	color: #8f8f8f;
 	
 }
@@ -1151,14 +1151,14 @@ margin-left: 90px;
 	top: 120px;
 	width: 100%;
 	background-color: black;
-	height: 500px;
+	height: 700px;
 	
 }
 #caption{
 	margin: 5px 20px;
 	position: absolute;
 	top: 90px;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 }
 .reactions-box {
   height: 50px;
@@ -1175,16 +1175,16 @@ margin-left: 90px;
   width: 100%;
   margin: 0;
   position: absolute;
-  top: 690px;
+  top: 790px;
 
 }
 .like-btn {
   font-weight: bold;
   margin:7px 0;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #7f7f7f;
   position: absolute;
-  top: 625px;
+  top: 825px;
   left: 40%;
   cursor: pointer;
   padding: 20px 15px 0 0;
@@ -1192,7 +1192,7 @@ margin-left: 90px;
 .share-btn {
  
   position: absolute;
-  top: 635px;
+  top: 835px;
   width: 50%;
  right: 0;
  text-align: center;
@@ -1206,7 +1206,7 @@ margin-left: 90px;
 .like-stat {
   margin-top: 3px;
   position: absolute;
-   top:695px;
+   top:895px;
   left: 15px;
   padding: 10px;
 }
@@ -1217,26 +1217,27 @@ max-width: 100%;
   width: 100%;
   margin: 0;
   position: absolute;
-  top: 740px;
+  top: 940px;
 
 }
 #shares{
 	position: absolute;
-  top: 743px;
+  top: 943px;
   left: 15px;
+  font-size: 1.8rem;
 }
 #thi{
   width: 100%;
   margin: 0;
   position: absolute;
-  top: 795px;
+  top: 995px;
 
 }
 #fou{
   width: 100%;
   margin: 0;
   position: absolute;
-  top: 900px;
+  top: 1100px;
 
 }
 #comments img{
@@ -1245,7 +1246,7 @@ max-width: 100%;
    
 }
 #ip{
-	width: 100px;
+	width: 120px;
 	height: 70px;
 	border-radius: 40px;
   
@@ -1254,20 +1255,20 @@ max-width: 100%;
 	height: 70px;
 	width: 80px;
 	font-size: 2rem;
-	margin-left: 40px;
+	margin-left: 10px;
 	
 }
 #comments{
 	display: inline-block;
  position: absolute;
-  top: 800px;
+  top: 1000px;
   left: 30px;
 
 }
 #comment{
 	display: inline-block;
  position: absolute;
-  top: 910px;
+  top: 1110px;
   left: 20px;
 
 }
