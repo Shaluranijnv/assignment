@@ -1,0 +1,1284 @@
+
+body{
+	margin: 0;
+	font-family:verdana;
+
+}
+.header1{
+width:100%;
+height:150px;
+position: absolute;
+top:0;
+left:0;
+color:white;
+z-index:7;
+}
+#img3{
+left:50px;
+top:30px;
+position: absolute;
+width: 100px;
+height: 100px;
+border-radius: 50px;	
+}
+#name{
+	margin-top: 60px;
+color: black;
+font-size: 1.5rem;
+}
+.fa-check-circle{
+	color: #008abf;
+}
+.fa-ellipsis-h {
+	float: right;
+	color: black;
+	background-color: white;
+	
+
+	font-size: 2rem;
+}
+.username{
+margin-bottom: 5px;
+margin-left: 160px;
+
+
+}
+#datetime{
+	color: #8f8f8f;
+	margin-top: 0;
+	font-size: 1.2rem;
+}
+#set{
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+}
+.dropbtn {
+  font-size: 2rem;
+  cursor: pointer;
+}
+#cbox{
+	box-sizing: border-box;
+	width: 170px;
+	height: 60px;
+	background-color: #909090;
+	padding: 10px;
+	border-radius: 20px;
+
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  right: 5%;
+  display: inline-block;
+  top: 36px;
+
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  top: 30px;
+  background-color: #f1f1f1;
+  min-width: 180px;
+ padding: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding:8px;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-bottom: 0;
+  text-decoration: none;
+  display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+.def{
+	margin:0 8px 8px;
+	padding: 0;
+	font-size: 0.8rem;
+	line-height: 1rem;
+	color: #8f8f8f;
+	
+}
+.post{
+	position: absolute;
+	background-color: black;
+
+width: 100%;
+}
+#vid{
+	width: 98%;
+	position: absolute;
+	margin: 0 1%;
+	top: 175px;
+	z-index: -1;
+	width: 100%;
+	
+}
+#caption{
+   margin: 10px 50px;
+	position: absolute;
+	top: 130px;
+	font-size: 2rem;
+}
+
+
+/*Like button */
+.facebook-reaction{
+
+  width: 50%;
+  position: absolute;
+ 
+  
+}
+.buttons{
+	width: 100%;
+	float: right;
+}
+
+#separate{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 995px;
+
+}
+#sec{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 1050px;
+
+}
+#shares{
+	position: absolute;
+  top: 1053px;
+  left: 20px;
+}
+#comments img{
+	width: 100px;
+	height: 100px;
+   
+}
+#ip{
+	width: 800px;
+	height: 80px;
+	border-radius: 40px;
+
+}
+.btn-primary{
+	height: 70px;
+	width: 80px;
+	font-size: 2rem;
+	margin-left: 30px;
+	margin: 0;
+}
+#comments{
+	display: inline-block;
+ position: absolute;
+  top: 1120px;
+  left: 10px;
+
+}
+#comment{
+	display: inline-block;
+ position: absolute;
+  top: 1250px;
+  left: 100px;
+
+}
+#thi{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 1100px;
+
+}
+#fou{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 1250px;
+
+}
+
+.like-btn {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #7f7f7f;
+  position: absolute;
+  top: 925px;
+  left: 40%;
+  cursor: pointer;
+  padding: 15px 15px 0 0;
+}
+.fa-share{
+	vertical-align: middle;
+}
+.share-btn {
+  position: absolute;
+  top: 940px;
+  right: 0;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px 15px 0 0;
+}
+#like{
+	width: 60px;
+	height: 60px;
+}
+.like-stat {
+  margin: 0;
+  position: absolute;
+   top:1010px;
+  left: 20px;
+ padding: 5px;
+}
+.stat{
+max-width: 100%;
+}
+
+.like-btn:hover {
+  text-decoration: underline;
+}
+
+.like-btn-default {
+  background-image: url('facebook.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -277px -446px;
+}
+
+.like-btn-emo {
+  display: inline-block;
+  
+  margin: 0 6px -3px 0;
+  width: 16px;
+  height: 16px;
+}
+
+.reactions-box {
+  height: 50px;
+  width: 360px;
+  padding: 20px;
+  position: absolute;
+  top: -40px;
+  left: -10px;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px #cccccc, -1px 0px 2px #eeeeee;
+  border-radius: 44px 44px;
+  display: none;
+
+}
+
+.reaction {
+  list-style-type: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 2px;
+  opacity: 0;
+  transform: scale(1, 1);
+  transition: opacity .5s ease-in-out 1s, transform .07s ease-in-out 0s, top .07s ease-in-out 0s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center
+}
+
+.like-btn:hover .reactions-box {
+  display: block;
+}
+
+.reaction-like {
+  left: 10px;
+  transition-delay: 0s;
+  background-image: url('reactions_like.png');
+}
+
+.reaction-love {
+  left: 68px;
+  transition-delay: .05s;
+  background-image: url('reactions_love.png');
+}
+
+.reaction-haha {
+  left: 126px;
+  transition-delay: .1s;
+  background-image: url('reactions_haha.png');
+}
+
+.reaction-wow {
+  left: 184px;
+  transition-delay: .15s;
+  background-image: url('reactions_wow.png');
+}
+
+.reaction-sad {
+  left: 242px;
+  transition-delay: .2s;
+  background-image: url('reactions_sad.png');
+}
+
+.reaction-angry {
+  left: 300px;
+  transition-delay: .25s;
+  background-image: url('reactions_angry.png');
+}
+
+
+
+.like-btn:hover .reaction {
+  opacity: 1;
+  animation-name: reaction_delay;
+  animation-duration: .5s;
+}
+
+@keyframes reaction_delay {
+  0% {
+    width: 48px;
+    height: 48px;
+    top: 60px;
+  }
+  48% {
+    width: 56px;
+    height: 56px;
+    top: 5px;
+  }	
+  100% {
+    width: 48px;
+    height: 48px;
+    top: 8px;
+  }
+}
+
+
+.like-btn:hover .reaction-like {
+  animation-delay: 0s
+}
+
+.like-btn:hover .reaction-love {
+  animation-delay: .05s
+}
+
+.like-btn:hover .reaction-haha {
+  animation-delay: .1s
+}
+
+.like-btn:hover .reaction-wow {
+  animation-delay: .15s
+}
+
+.like-btn:hover .reaction-sad {
+  animation-delay: .2s
+}
+
+.like-btn:hover .reaction-angry {
+  animation-delay: .25s
+}
+
+.reaction:hover {
+  transform: scale(1.3, 1.3);
+  top: 2px
+}
+
+
+
+.reaction::before {
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'Arial';
+  text-align: center;
+  line-height: 17px;
+  font-size: .4em;
+  width: 80%;
+  height: 17px;
+  margin-left: 10%;
+  background-color: black;
+  border-radius: 20px;
+  position: absolute;
+  top: -25px;
+  opacity: 0;
+  padding: 3px;
+  transition: opacity .2s ease-in-out 0s;
+}
+
+.reaction:hover::before {
+  opacity: 1
+}
+
+.reaction-like::before {
+  content: 'Like'
+}
+
+.reaction-love::before {
+  content: 'Love'
+}
+
+.reaction-haha::before {
+  content: 'Haha'
+}
+
+.reaction-wow::before {
+  content: 'Wow'
+}
+
+
+.reaction-sad::before {
+  content: 'Sad'
+}
+
+.reaction-angry::before {
+  content: 'Angry'
+}
+
+
+
+
+.like-btn-like{
+  background-image: url('reaction-small.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -17px -151px;
+}
+
+.like-btn-love{
+  background-image: url('reaction-small.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 -168px;
+}
+
+.like-btn-haha{
+  background-image: url('reaction-small.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 0 -151px;
+}
+
+.like-btn-wow{
+  background-image: url('reaction-small.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -17px -185px;
+}
+
+.like-btn-sad{
+  background-image: url('reaction-small.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -17px -168px;
+}
+
+.like-btn-angry{
+  background-image: url('reaction-small.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: -17px -117px;
+}
+
+.like-btn-text-like {
+  color:rgb(88, 144, 255);
+}
+.like-btn-text-wow,.like-btn-text-haha,.like-btn-text-sad {
+  color:rgb(240, 186, 21)
+}
+.like-btn-text-love{
+  color:rgb(242, 82, 104)
+}
+.like-btn-text-angry{
+  color:rgb(247, 113, 75);
+}
+.like-emo {
+  width: 20px;
+}
+
+.like-emo > span{
+    display: inline-block;
+    margin: 0 -3px -3px 0px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #EEE;
+    border-radius: 50%;
+
+}
+
+.like-details{
+  margin-left:10px;
+  color:#9197a3;
+  font-size:12px;
+}
+
+@media(max-width: 1200px){
+
+	.header1{
+width:100%;
+height:150px;
+position: absolute;
+top:0;
+left:0;
+color:white;
+z-index:7;
+}
+#img3{
+left:50px;
+top:30px;
+position: absolute;
+width: 100px;
+height: 100px;
+border-radius: 50px;	
+}
+#name{
+	margin-top: 60px;
+color: black;
+font-size: 1.5rem;
+}
+.fa-check-circle{
+	color: #008abf;
+}
+.fa-ellipsis-h {
+	float: right;
+	color: black;
+	background-color: white;
+	
+
+	font-size: 2rem;
+}
+.username{
+margin-bottom: 5px;
+margin-left: 160px;
+
+}
+#datetime{
+	color: #8f8f8f;
+	margin-top: 0;
+	font-size: 1.2rem;
+}
+#set{
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+}
+.dropbtn {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  right: 5%;
+  display: inline-block;
+  top: 36px;
+
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  top: 30px;
+  background-color: #f1f1f1;
+  min-width: 180px;
+ padding: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding:8px;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-bottom: 0;
+  text-decoration: none;
+  display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+.def{
+	margin:0 8px 8px;
+	padding: 0;
+	font-size: 0.8rem;
+	line-height: 1rem;
+	color: #8f8f8f;
+	
+}
+.post{
+	
+	
+position: absolute;
+	top: 20px;
+
+	width: 100%;
+
+
+}
+#vid{
+	position: absolute;
+	top: 175px;
+	width: 98%;
+	margin: 0 1%;
+	height: 700px;
+	background-color: black;
+	
+}
+#caption{
+
+	margin: 10px 50px;
+	position: absolute;
+	top: 130px;
+}
+.reactions-box {
+  height: 50px;
+  width: 360px;
+  padding: 10px;
+  position: absolute;
+  top: -90px;
+  left: -10px;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px #cccccc, -1px 0px 2px #eeeeee;
+  border-radius: 44px 44px;
+  display: none;
+
+}
+#separate{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 980px;
+
+}
+.like-btn {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #7f7f7f;
+  position: absolute;
+  top: 900px;
+  left: 40%;
+  cursor: pointer;
+  padding: 15px 15px 0 0;
+}
+.share-btn {
+  
+  
+  position: absolute;
+  top: 900px;
+  text-align: center;
+  width: 50%;
+  right: 0;
+  cursor: pointer;
+  padding: 15px 15px 0 0;
+}
+#like{
+	width: 60px;
+	height: 60px;
+}
+.like-stat {
+  margin: 0;
+  position: absolute;
+   top:990px;
+  left: 20px;
+ padding: 5px;
+}
+.stat{
+max-width: 100%;
+}
+
+#sec{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 1035px;
+
+}
+#shares{
+	position: absolute;
+  top: 1038px;
+  left: 20px;
+}
+#thi{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 1080px;
+
+}
+#fou{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 1185px;
+
+}
+#shares{
+	position: absolute;
+  top: 1053px;
+  left: 20px;
+}
+#comments img{
+	width: 100px;
+	height: 100px;
+   
+}
+#ip{
+	width: 800px;
+	height: 80px;
+	border-radius: 40px;
+
+}
+.btn-primary{
+	height: 70px;
+	width: 80px;
+	font-size: 2rem;
+	margin-left: 30px;
+	margin: 0;
+}
+#comments{
+	display: inline-block;
+ position: absolute;
+  top: 1120px;
+  left: 10px;
+
+}
+#comment{
+	display: inline-block;
+ position: absolute;
+  top: 1250px;
+  left: 100px;
+
+}
+#cbox{
+	box-sizing: border-box;
+	width: 170px;
+	height: 60px;
+	background-color: #909090;
+	padding: 10px;
+	border-radius: 20px;
+
+}
+#thi{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 1100px;
+
+}
+
+}
+
+@media(max-width: 997px){
+	.header1{
+width:100%;
+height:150px;
+position: absolute;
+top:0;
+left:0;
+color:white;
+z-index:7;
+}
+#img3{
+left:30px;
+top:30px;
+position: absolute;
+width: 80px;
+height: 80px;
+border-radius: 50px;	
+}
+#name{
+	margin-top:50px;
+color: black;
+font-size: 1.5rem;
+}
+.fa-check-circle{
+	color: #008abf;
+}
+.fa-ellipsis-h {
+	float: right;
+	color: black;
+	background-color: white;
+	
+
+	
+}
+.username{
+margin-bottom: 5px;
+margin-left: 120px;
+
+
+}
+#datetime{
+	color: #8f8f8f;
+	margin-top: 0;
+	font-size: 1rem;
+}
+#set{
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+}
+.dropbtn {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  right: 5%;
+  display: inline-block;
+  top: 36px;
+
+}
+#cbox{
+	box-sizing: border-box;
+	width: 170px;
+	height: 60px;
+	background-color: #909090;
+	padding: 10px;
+	border-radius: 20px;
+
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  top: 30px;
+  background-color: #f1f1f1;
+  max-width: 100px;
+ padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding:5px;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-bottom: 0;
+  text-decoration: none;
+  display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+.def{
+	margin:0 6px 6px;
+	padding: 0;
+	font-size: 0.8rem;
+	line-height: 1rem;
+	color: #8f8f8f;
+	
+}
+.post{
+	width: 100%;
+	position: absolute;
+	top: 10px;
+	background-color: black;
+	
+
+}
+#vid{
+	width: 100%;
+   margin: 0;
+
+	height: 600px;
+background-color: black;
+	
+}
+#caption{
+	margin: 20px 50px;
+	position: absolute;
+	top: 110px;
+	font-size: 2rem;
+}
+.reactions-box {
+   height: 50px;
+  width: 360px;
+  padding: 10px;
+  position: absolute;
+  top: -40px;
+  left: -10px;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px #cccccc, -1px 0px 2px #eeeeee;
+  border-radius: 44px 44px;
+  display: none;
+
+}
+#separate{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 860px;
+
+}
+.like-btn {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #7f7f7f;
+  position: absolute;
+  top: 795px;
+  left: 40%;
+  cursor: pointer;
+  padding: 10px 15px 10px;
+}
+.share-btn {
+	 position: absolute;
+  top: 800px;
+  width: 50%;
+  right: 0;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 15px 10px;
+ 
+}
+#like{
+	width: 50px;
+	height: 50px;
+}
+.like-stat {
+  margin: 0;
+  position: absolute;
+   top:878px;
+  left: 10px;
+  padding: 5px;
+ 
+}
+.stat{
+max-width: 100%;
+}
+#sec{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 915px;
+
+}
+#shares{
+	position: absolute;
+  top: 918px;
+  left: 10px;
+}
+#thi{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 960px;
+
+}
+#fou{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 1065px;
+
+}
+
+#comments img{
+	width: 100px;
+	height: 100px;
+   
+}
+#ip{
+	width: 200px;
+	height: 60px;
+	border-radius: 40px;
+  
+}
+.btn-primary{
+	height: 70px;
+	width: 80px;
+	font-size: 2rem;
+	
+	
+}
+#comments{
+	display: inline-block;
+ position: absolute;
+  top: 960px;
+  margin: 0;
+  
+
+
+}
+#comment{
+	display: inline-block;
+ position: absolute;
+  top: 1080px;
+  left: 20px;
+  margin: 0;
+
+}
+
+
+}
+@media(max-width: 768px){
+	.header1{
+width:100%;
+height:150px;
+position: absolute;
+top:0;
+left:0;
+color:white;
+z-index:7;
+}
+#img3{
+left:20px;
+top:20px;
+position: absolute;
+width: 60px;
+height: 60px;
+border-radius: 50px;	
+margin-bottom: 0;
+}
+#name{
+	margin-top: 34px;
+color: black;
+font-size: 1.4rem;
+margin-bottom: 0: 
+font-weight:bold;
+}
+.fa-check-circle{
+	color: #008abf;
+}
+.fa-ellipsis-h {
+	float: right;
+	color: black;
+	background-color: white;
+    
+
+	
+}
+.username{
+margin-bottom: 5px;
+margin-left: 90px;
+
+
+}
+#datetime{
+	color: #8f8f8f;
+	margin-top: 0;
+	font-size: .9rem;
+}
+#set{
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+}
+.dropbtn {
+  font-size: 1rem;
+  cursor: pointer;
+ margin: 0;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  right: 5%;
+  display: inline-block;
+  top: 25px;
+
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  top: 29px;
+  background-color: #f1f1f1;
+  max-width: 100px;
+ padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding:5px;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-bottom: 0;
+  text-decoration: none;
+  display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+.def{
+	margin:0 6px 6px;
+	padding: 0;
+	font-size: 0.8rem;
+	line-height: 1rem;
+	color: #8f8f8f;
+	
+}
+.post{
+	position: absolute;
+	
+	width: 100%;
+
+}
+#vid{
+	position: absolute;
+	top: 120px;
+	width: 100%;
+	background-color: black;
+	height: 500px;
+	
+}
+#caption{
+	margin: 5px 20px;
+	position: absolute;
+	top: 90px;
+	font-size: 1.5rem;
+}
+.reactions-box {
+  height: 50px;
+  width: 350px;
+  padding: 10px;
+  position: absolute;
+  top: -20px;
+  left: 15px;
+  box-shadow: 1px 1px 2px #cccccc, -1px 0px 2px #eeeeee;
+  border-radius: 44px 44px;
+  display: none;
+}
+#separate{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 690px;
+
+}
+.like-btn {
+  font-weight: bold;
+  margin:7px 0;
+  font-size: 2rem;
+  color: #7f7f7f;
+  position: absolute;
+  top: 625px;
+  left: 40%;
+  cursor: pointer;
+  padding: 20px 15px 0 0;
+}
+.share-btn {
+ 
+  position: absolute;
+  top: 635px;
+  width: 50%;
+ right: 0;
+ text-align: center;
+  cursor: pointer;
+  padding: 20px 15px 0 0;
+}
+#like{
+	width: 45px;
+	height: 45px;
+}
+.like-stat {
+  margin-top: 3px;
+  position: absolute;
+   top:695px;
+  left: 15px;
+  padding: 10px;
+}
+.stat{
+max-width: 100%;
+}
+#sec{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 740px;
+
+}
+#shares{
+	position: absolute;
+  top: 743px;
+  left: 15px;
+}
+#thi{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 795px;
+
+}
+#fou{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 900px;
+
+}
+#comments img{
+	width: 80px;
+	height: 80px;
+   
+}
+#ip{
+	width: 100px;
+	height: 70px;
+	border-radius: 40px;
+  
+}
+.btn-primary{
+	height: 70px;
+	width: 80px;
+	font-size: 2rem;
+	margin-left: 40px;
+	
+}
+#comments{
+	display: inline-block;
+ position: absolute;
+  top: 800px;
+  left: 30px;
+
+}
+#comment{
+	display: inline-block;
+ position: absolute;
+  top: 910px;
+  left: 20px;
+
+}
+#cbox{
+	box-sizing: border-box;
+	width: 170px;
+	height: 60px;
+	background-color: #909090;
+	padding: 10px;
+	border-radius: 20px;
+
+}
+
+}

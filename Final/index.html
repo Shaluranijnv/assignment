@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+   <script type="text/javascript" src="jquery.min.js"></script>
+   <script type="text/javascript" src="reaction.js"></script>
+   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="header1">
+<table>
+	<tr>
+		<td><img src="BellaThrone.jpg" id="img3"></td>
+		<td ><h1 id="name" class="username"><b>Bella Throne<b> <i class="fas fa-check-circle"></i></h1>
+			<p id="datetime" class="username">December 29,2020 at 5:29 AM &#9679; <img id="set" src="set.png"></p>
+		</td>
+		<td class="dropdown">
+            
+  <i onclick="myFunction3()"  class="fas fa-ellipsis-h dropbtn" ></i>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#"><i class="far fa-bookmark"></i>  Save Video</a>
+    <p class="def">Add this to your saved video</p>
+    <a href="#"><i class="fas fa-link"></i>  Copy link</a>
+    
+    <a href="#"><i class="fas fa-plus-square"></i>  Follow Bella Throne</a>
+    <p class="def">Start seeing videos and posts in news feed</p>
+    <hr>
+    <a href="#"><i class="fas fa-times-circle"></i>  Hide Video</a>
+    <p class="def">see fewer videos like this</p>
+    <a href="#"><i class="fas fa-exclamation-circle"></i>  Report Video</a>
+    <p class="def">i'm concerned about this video</p>
+ 
+  </div>
+   </td>
+	</tr>
+
+</table>
+</div>
+<b><p id="caption">People Having a Worse Day Than You 😲</p><b>
+<div class="post">
+	
+
+<video controls="controls" id="vid">
+	<source src="https://video.twimg.com/ext_tw_video/1316271598865874944/pu/vid/1280x720/33GvJca_g5nutbHv.mp4" type="video/mp4"  >
+</video>
+</video>
+	
+</div>
+
+	
+<!-- Reaction system start -->
+				<div class="facebook-reaction"><!-- container div for reaction system -->
+					<span class="like-btn"> <!-- Default like button -->
+						<span class="like-btn-text" ><img id="like" src="like-image.png"> </span><!-- Default like button emotion-->
+						 <!-- Default like button text,(Like, wow, sad..) default:Like  -->
+						  <ul class="reactions-box"> <!-- Reaction buttons container-->
+								<li class="reaction reaction-like" data-reaction="Like"></li>
+								<li class="reaction reaction-love" data-reaction="Love"></li>
+								<li class="reaction reaction-haha" data-reaction="HaHa"></li>
+								<li class="reaction reaction-wow" data-reaction="Wow"></li>
+								<li class="reaction reaction-sad" data-reaction="Sad"></li>
+								<li class="reaction reaction-angry" data-reaction="Angry"></li>
+						  </ul>
+
+					</span>
+				</div>
+				
+     <div id="separate">
+     	 <hr>
+     </div>
+ <div class="stat">
+					<div class="like-stat"> <!-- Like statistic container-->
+						<span class="like-emo"> <!-- like emotions container -->
+
+							<span class="like-btn-like"></span> <!-- given emotions like, wow, sad (default:Like) -->
+						</span>
+						<span class="like-details">Shalu Rani and 1k others</span>
+                      <br>
+                     
+					</div>
+
+				 </div>
+				<!-- Reaction system end -->
+			
+		</div>
+
+
+		<div class="share-btn">
+					<i class="fas fa-2x fa-share" style=" color:#484848;"></i>
+				</div>
+				<hr id="sec">
+				<hr id="thi">
+				<hr id="fou">
+				
+        <div id="shares">
+        	<p>38257 shares</p>
+        </div>
+        <div id="comments">
+        	<table>
+        	<tr>
+        		<td><img src="prof.png"></td>
+        		 <td> <input type="text" id="ip" name=""></td>
+        		 <td><button type="button" class="btn btn-primary">Post</button></td></tr>
+        	</table>
+        	
+        </div>
+        <div id="comment">
+        	<table>
+        	<tr>
+        		<td><img src="prof.png" width="70px" height="70px"></td>
+        		 <td id="cbox">
+        		 	<h4  style="font-weight: bold;">Shalu Rani</h4>
+        		 Amazing!!!!!!!</td>
+        		 </tr>
+        	</table>
+        	
+        </div>
+				
+<script  src="script.js"></script>
+
+</body>
+</html>
