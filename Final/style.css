@@ -1,7 +1,7 @@
 
 body{
-	margin: 0;
-	font-family:verdana;
+  margin: 0;
+  font-family:verdana;
 
 }
 .header1{
@@ -19,23 +19,23 @@ top:30px;
 position: absolute;
 width: 100px;
 height: 100px;
-border-radius: 50px;	
+border-radius: 50px;  
 }
 #name{
-	margin-top: 60px;
+  margin-top: 60px;
 color: black;
 font-size: 3rem;
 }
 .fa-check-circle{
-	color: #008abf;
+  color: #008abf;
 }
 .fa-ellipsis-h {
-	float: right;
-	color: black;
-	background-color: white;
-	
+  float: right;
+  color: black;
+  background-color: white;
+  
 
-	font-size: 2rem;
+  font-size: 2rem;
 }
 .username{
 margin-bottom: 5px;
@@ -44,26 +44,26 @@ margin-left: 160px;
 
 }
 #datetime{
-	color: #8f8f8f;
-	margin-top: 0;
-	font-size: 1.2rem;
+  color: #8f8f8f;
+  margin-top: 0;
+  font-size: 1.2rem;
 }
 #set{
-	vertical-align: middle;
-	width: 20px;
-	height: 20px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
 }
 .dropbtn {
   font-size: 2rem;
   cursor: pointer;
 }
 #cbox{
-	box-sizing: border-box;
-	width: 170px;
-	height: 60px;
-	background-color: #D8D8D8;
-	padding: 10px;
-	border-radius: 20px;
+  box-sizing: border-box;
+  width: 170px;
+  height: 60px;
+  background-color: #D8D8D8;
+  padding: 10px;
+  border-radius: 20px;
 
 }
 /* The container <div> - needed to position the dropdown content */
@@ -104,33 +104,35 @@ margin-left: 160px;
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 .def{
-	margin:0 8px 8px;
-	padding: 0;
-	font-size: 2rem;
-	line-height: 1.4rem;
-	color: #8f8f8f;
-	
+  margin:0 8px 8px;
+  padding: 0;
+  font-size: 2rem;
+  line-height: 1.4rem;
+  color: #8f8f8f;
+  
 }
 .post{
-	position: absolute;
-	background-color: black;
+  position: absolute;
+  background-color: black;
 
 width: 100%;
 }
 #vid{
-	width: 98%;
-	position: absolute;
-	margin: 0 1%;
-	top: 175px;
-	z-index: -1;
-	width: 100%;
-	
+  width: 98%;
+  position: absolute;
+  margin: 0 1%;
+  top: 175px;
+  z-index: -1;
+  width: 100%;
+  
 }
 #caption{
    margin: 10px 50px;
-	position: absolute;
-	top: 130px;
-	font-size: 2rem;
+  position: absolute;
+  top: 130px;
+  font-size: 2rem;
+   font-family:verdana;
+
 }
 
 
@@ -143,8 +145,8 @@ width: 100%;
   
 }
 .buttons{
-	width: 100%;
-	float: right;
+  width: 100%;
+  float: right;
 }
 
 #separate{
@@ -162,38 +164,38 @@ width: 100%;
 
 }
 #shares{
-	position: absolute;
+  position: absolute;
   top: 1053px;
   left: 20px;
   font-size: 2.5rem;
 }
 #comments img{
-	width: 100px;
-	height: 100px;
+  width: 100px;
+  height: 100px;
    
 }
 #ip{
-	width: 600px;
-	height: 80px;
-	border-radius: 40px;
+  width: 600px;
+  height: 80px;
+  border-radius: 40px;
 
 }
 .btn-primary{
-	height: 70px;
-	width: 80px;
-	font-size: 2rem;
-	margin-left: 30px;
-	margin: 0;
+  height: 70px;
+  width: 80px;
+  font-size: 2rem;
+  margin-left: 30px;
+  margin: 0;
 }
 #comments{
-	display: inline-block;
+  display: inline-block;
  position: absolute;
   top: 1120px;
   left: 10px;
 
 }
 #comment{
-	display: inline-block;
+  display: inline-block;
  position: absolute;
   top: 1250px;
   left: 100px;
@@ -225,7 +227,7 @@ width: 100%;
   padding: 15px 15px 0 0;
 }
 .fa-share{
-	vertical-align: middle;
+  vertical-align: middle;
 }
 .share-btn {
   position: absolute;
@@ -237,8 +239,8 @@ width: 100%;
   padding: 15px 15px 0 0;
 }
 #like{
-	width: 60px;
-	height: 60px;
+  width: 60px;
+  height: 60px;
 }
 .like-stat {
   margin: 0;
@@ -358,7 +360,7 @@ max-width: 100%;
     width: 56px;
     height: 56px;
     top: 5px;
-  }	
+  } 
   100% {
     width: 48px;
     height: 48px;
@@ -525,7 +527,7 @@ max-width: 100%;
 
 @media(max-width: 1200px){
 
-	.header1{
+  .header1{
 width:100%;
 height:150px;
 position: absolute;
@@ -540,23 +542,23 @@ top:30px;
 position: absolute;
 width: 100px;
 height: 100px;
-border-radius: 50px;	
+border-radius: 50px;  
 }
 #name{
-	margin-top: 60px;
+  margin-top: 60px;
 color: black;
 font-size: 3rem;
 }
 .fa-check-circle{
-	color: #008abf;
+  color: #008abf;
 }
 .fa-ellipsis-h {
-	float: right;
-	color: black;
-	background-color: white;
-	
+  float: right;
+  color: black;
+  background-color: white;
+  
 
-	font-size: 2rem;
+  font-size: 2rem;
 }
 .username{
 margin-bottom: 5px;
@@ -564,14 +566,14 @@ margin-left: 160px;
 
 }
 #datetime{
-	color: #8f8f8f;
-	margin-top: 0;
-	font-size: 2rem;
+  color: #8f8f8f;
+  margin-top: 0;
+  font-size: 2rem;
 }
 #set{
-	vertical-align: middle;
-	width: 20px;
-	height: 20px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
 }
 .dropbtn {
   font-size: 2rem;
@@ -616,38 +618,39 @@ margin-left: 160px;
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 .def{
-	margin:0 8px 8px;
-	padding: 0;
-	font-size: 2rem;
-	line-height: 1.4rem;
-	color: #8f8f8f;
-	
+  margin:0 8px 8px;
+  padding: 0;
+  font-size: 2rem;
+  line-height: 1.4rem;
+  color: #8f8f8f;
+  
 }
 .post{
-	
-	
+  
+  
 position: absolute;
-	top: 20px;
+  top: 20px;
 
-	width: 100%;
+  width: 100%;
 
 
 }
 #vid{
-	position: absolute;
-	top: 175px;
-	width: 98%;
-	margin: 0 1%;
-	height: 700px;
-	background-color: black;
-	
+  position: absolute;
+  top: 175px;
+  width: 98%;
+  margin: 0 1%;
+  height: 700px;
+  background-color: black;
+  
 }
 #caption{
 
-	margin: 10px 50px;
-	position: absolute;
-	top: 130px;
-	font-size: 2rem;
+  margin: 10px 50px;
+  position: absolute;
+  top: 130px;
+  font-size: 2rem;
+  font-family: verdana;
 }
 .reactions-box {
   height: 50px;
@@ -691,8 +694,8 @@ position: absolute;
   padding: 15px 15px 0 0;
 }
 #like{
-	width: 60px;
-	height: 60px;
+  width: 60px;
+  height: 60px;
 }
 .like-stat {
   margin: 0;
@@ -713,7 +716,7 @@ max-width: 100%;
 
 }
 #shares{
-	position: absolute;
+  position: absolute;
   top: 1038px;
   left: 20px;
    font-size: 2.5rem;
@@ -734,44 +737,44 @@ max-width: 100%;
 }
 
 #comments img{
-	width: 100px;
-	height: 100px;
+  width: 100px;
+  height: 100px;
    
 }
 #ip{
-	width: 600px;
-	height: 80px;
-	border-radius: 40px;
+  width: 600px;
+  height: 80px;
+  border-radius: 40px;
 
 }
 .btn-primary{
-	height: 70px;
-	width: 80px;
-	font-size: 3rem;
-	margin-left: 30px;
-	margin: 0;
+  height: 70px;
+  width: 80px;
+  font-size: 3rem;
+  margin-left: 30px;
+  margin: 0;
 }
 #comments{
-	display: inline-block;
+  display: inline-block;
  position: absolute;
   top: 1120px;
   left: 10px;
 
 }
 #comment{
-	display: inline-block;
+  display: inline-block;
  position: absolute;
   top: 1250px;
   left: 100px;
 
 }
 #cbox{
-	box-sizing: border-box;
-	width: 170px;
-	height: 60px;
-	background-color:#D8D8D8;
-	padding: 10px;
-	border-radius: 20px;
+  box-sizing: border-box;
+  width: 170px;
+  height: 60px;
+  background-color:#D8D8D8;
+  padding: 10px;
+  border-radius: 20px;
    font-size: 2rem;
 }
 #thi{
@@ -785,7 +788,7 @@ max-width: 100%;
 }
 
 @media(max-width: 997px){
-	.header1{
+  .header1{
 width:100%;
 height:150px;
 position: absolute;
@@ -800,23 +803,23 @@ top:30px;
 position: absolute;
 width: 80px;
 height: 80px;
-border-radius: 50px;	
+border-radius: 50px;  
 }
 #name{
-	margin-top:50px;
+  margin-top:50px;
 color: black;
 font-size: 3rem;
 }
 .fa-check-circle{
-	color: #008abf;
+  color: #008abf;
 }
 .fa-ellipsis-h {
-	float: right;
-	color: black;
-	background-color: white;
-	
+  float: right;
+  color: black;
+  background-color: white;
+  
  font-size: 2rem;
-	
+  
 }
 .username{
 margin-bottom: 5px;
@@ -825,14 +828,14 @@ margin-left: 120px;
 
 }
 #datetime{
-	color: #8f8f8f;
-	margin-top: 0;
-	font-size: 2rem;
+  color: #8f8f8f;
+  margin-top: 0;
+  font-size: 2rem;
 }
 #set{
-	vertical-align: middle;
-	width: 20px;
-	height: 20px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
 }
 .dropbtn {
   font-size: 3rem;
@@ -848,12 +851,12 @@ margin-left: 120px;
 
 }
 #cbox{
-	box-sizing: border-box;
-	width: 170px;
-	height: 60px;
-	background-color: #D8D8D8;
-	padding: 10px;
-	border-radius: 20px;
+  box-sizing: border-box;
+  width: 170px;
+  height: 60px;
+  background-color: #D8D8D8;
+  padding: 10px;
+  border-radius: 20px;
 
 }
 .dropdown-content {
@@ -886,34 +889,36 @@ margin-left: 120px;
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 .def{
-	margin:0 6px 6px;
-	padding: 0;
-	font-size: 2.2rem;
-	line-height: 1.8rem;
-	color: #8f8f8f;
-	
+  margin:0 6px 6px;
+  padding: 0;
+  font-size: 2.2rem;
+  line-height: 1.8rem;
+  color: #8f8f8f;
+  
 }
 .post{
-	width: 100%;
-	position: absolute;
-	top: 10px;
-	background-color: black;
-	
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  background-color: black;
+  
 
 }
 #vid{
-	width: 100%;
+  width: 100%;
    margin: 0;
 
-	height: 600px;
+  height: 600px;
 background-color: black;
-	
+  
 }
 #caption{
-	margin: 20px 50px;
-	position: absolute;
-	top: 110px;
-	font-size: 2rem;
+  margin: 20px 50px;
+  position: absolute;
+  top: 110px;
+  font-size: 2rem;
+   font-family: verdana;
+
 }
 .reactions-box {
    height: 50px;
@@ -946,7 +951,7 @@ background-color: black;
   padding: 10px 15px 10px;
 }
 .share-btn {
-	 position: absolute;
+   position: absolute;
   top: 800px;
   width: 50%;
   right: 0;
@@ -956,8 +961,8 @@ background-color: black;
  
 }
 #like{
-	width: 50px;
-	height: 50px;
+  width: 50px;
+  height: 50px;
 }
 .like-stat {
   margin: 0;
@@ -978,7 +983,7 @@ max-width: 100%;
 
 }
 #shares{
-	position: absolute;
+  position: absolute;
   top: 918px;
   left: 10px;
    font-size: 2rem;
@@ -999,25 +1004,25 @@ max-width: 100%;
 }
 
 #comments img{
-	width: 100px;
-	height: 100px;
+  width: 100px;
+  height: 100px;
    
 }
 #ip{
-	width: 200px;
-	height: 60px;
-	border-radius: 40px;
+  width: 200px;
+  height: 60px;
+  border-radius: 40px;
   
 }
 .btn-primary{
-	height: 70px;
-	width: 80px;
-	font-size: 2rem;
-	
-	
+  height: 70px;
+  width: 80px;
+  font-size: 2rem;
+  
+  
 }
 #comments{
-	display: inline-block;
+  display: inline-block;
  position: absolute;
   top: 960px;
   margin: 0;
@@ -1026,7 +1031,7 @@ max-width: 100%;
 
 }
 #comment{
-	display: inline-block;
+  display: inline-block;
  position: absolute;
   top: 1080px;
   left: 20px;
@@ -1037,7 +1042,7 @@ max-width: 100%;
 
 }
 @media(max-width: 768px){
-	.header1{
+  .header1{
 width:100%;
 height:150px;
 position: absolute;
@@ -1052,26 +1057,26 @@ top:20px;
 position: absolute;
 width: 50px;
 height: 50px;
-border-radius: 50px;	
+border-radius: 50px;  
 margin-bottom: 0;
 }
 #name{
-	margin-top: 25px;
+  margin-top: 25px;
 color: black;
 font-size: 2rem;
 margin-bottom: 0: 
 font-weight:bold;
 }
 .fa-check-circle{
-	color: #008abf;
+  color: #008abf;
 }
 .fa-ellipsis-h {
-	float: right;
-	color: black;
-	background-color: white;
+  float: right;
+  color: black;
+  background-color: white;
   
 
-	
+  
 }
 .username{
 margin-bottom: 5px;
@@ -1080,15 +1085,15 @@ margin-left: 65px;
 
 }
 #datetime{
-	color: #8f8f8f;
-	margin-top: 0;
-	font-size:1em;
+  color: #8f8f8f;
+  margin-top: 0;
+  font-size:1em;
   margin-bottom: 10px;
 }
 #set{
-	vertical-align: middle;
-	width: 15px;
-	height: 15px;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
 }
 .dropbtn {
   font-size: 3rem;
@@ -1134,33 +1139,34 @@ margin-left: 65px;
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
 .def{
-	margin:0 6px 6px;
-	padding: 0;
-	font-size: 1rem;
-	lineght: 0.8rem;
-	color: #8f8f8f;
-	
+  margin:0 6px 6px;
+  padding: 0;
+  font-size: 1rem;
+  lineght: 0.8rem;
+  color: #8f8f8f;
+  
 }
 .post{
-	position: absolute;
-	
-	width: 100%;
+  position: absolute;
+  
+  width: 100%;
 
 }
 #vid{
-	position: absolute;
-	top: 110px;
-	width: 100%;
-	background-color: black;
-	height: 400px;
-	
+  position: absolute;
+  top: 110px;
+  width: 100%;
+  background-color: black;
+  height: 400px;
+  
 }
 #caption{
-	margin: 0 10px;
-	position: absolute;
-	top: 80px;
-	font-size: 1.8rem;
-	
+  margin: 0 10px;
+  position: absolute;
+  top: 80px;
+  font-size: 1.8rem;
+  font-family: verdana;
+  
 }
 .reactions-box {
   height: 50px;
@@ -1238,8 +1244,8 @@ margin-left: 65px;
   padding: 20px 15px 0 0;
 }
 #like{
-	width: 45px;
-	height: 45px;
+  width: 45px;
+  height: 45px;
 }
 .like-stat {
   margin-top: 3px;
@@ -1259,8 +1265,8 @@ max-width: 100%;
 
 }
 #shares{
-	position: absolute;
-  top: 618px;
+  position: absolute;
+  top: 626px;
   left: 15px;
   font-size: 1.8rem;
 }
@@ -1279,44 +1285,44 @@ max-width: 100%;
 
 }
 #comments img{
-	width: 50px;
-	height: 50px;
+  width: 50px;
+  height: 50px;
    
 }
 #ip{
-	width: 160px;
-	height: 70px;
-	border-radius: 40px;
+  width: 160px;
+  height: 70px;
+  border-radius: 40px;
   
 }
 .btn-primary{
-	height: 50px;
-	width: 50px;
-	font-size: 1.5rem;
-	margin-left: 10px;
-	
+  height: 50px;
+  width: 50px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  
 }
 #comments{
-	display: inline-block;
+  display: inline-block;
  position: absolute;
   top: 675px;
   left: 10px;
 
 }
 #comment{
-	display: inline-block;
+  display: inline-block;
  position: absolute;
   top: 785px;
   left: 20px;
 
 }
 #cbox{
-	box-sizing: border-box;
-	width: 150px;
-	height: 40px;
-	background-color:#D8D8D8;
-	padding: 5px;
-	border-radius: 20px;
+  box-sizing: border-box;
+  width: 150px;
+  height: 40px;
+  background-color:#D8D8D8;
+  padding: 5px;
+  border-radius: 20px;
 
 }
 
