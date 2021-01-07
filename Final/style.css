@@ -815,7 +815,7 @@ font-size: 3rem;
 	color: black;
 	background-color: white;
 	
-
+ font-size: 2rem;
 	
 }
 .username{
@@ -1056,7 +1056,7 @@ border-radius: 50px;
 margin-bottom: 0;
 }
 #name{
-	margin-top: 20px;
+	margin-top: 25px;
 color: black;
 font-size: 2rem;
 margin-bottom: 0: 
@@ -1069,20 +1069,20 @@ font-weight:bold;
 	float: right;
 	color: black;
 	background-color: white;
-       font-size:1.3rem;
+  
 
 	
 }
 .username{
 margin-bottom: 5px;
-margin-left: 60px;
+margin-left: 65px;
 
 
 }
 #datetime{
 	color: #8f8f8f;
 	margin-top: 0;
-	font-size:1rem;
+	font-size:1em;
 }
 #set{
 	vertical-align: middle;
@@ -1148,7 +1148,7 @@ margin-left: 60px;
 }
 #vid{
 	position: absolute;
-	top: 150px;
+	top: 110px;
 	width: 100%;
 	background-color: black;
 	height: 500px;
@@ -1176,7 +1176,7 @@ margin-left: 60px;
   width: 100%;
   margin: 0;
   position: absolute;
-  top: 610px;
+  top: 570px;
 
 }
 .like-btn {
@@ -1185,7 +1185,7 @@ margin-left: 60px;
   font-size: 3rem;
   color: #7f7f7f;
   position: absolute;
-  top: 645px;
+  top: 605px;
   left: 40%;
   cursor: pointer;
   padding: 20px 15px 0 0;
@@ -1193,7 +1193,7 @@ margin-left: 60px;
 .share-btn {
  
   position: absolute;
-  top: 655px;
+  top: 615px;
   width: 50%;
  right: 0;
  text-align: center;
@@ -1207,7 +1207,7 @@ margin-left: 60px;
 .like-stat {
   margin-top: 3px;
   position: absolute;
-   top:715px;
+   top:675px;
   left: 15px;
   padding: 10px;
 }
@@ -1218,12 +1218,12 @@ max-width: 100%;
   width: 100%;
   margin: 0;
   position: absolute;
-  top: 760px;
+  top: 720px;
 
 }
 #shares{
 	position: absolute;
-  top: 763px;
+  top: 723px;
   left: 15px;
   font-size: 1.8rem;
 }
@@ -1231,14 +1231,14 @@ max-width: 100%;
   width: 100%;
   margin: 0;
   position: absolute;
-  top: 815px;
+  top: 775px;
 
 }
 #fou{
   width: 100%;
   margin: 0;
   position: absolute;
-  top: 920px;
+  top: 880px;
 
 }
 #comments img{
@@ -1262,14 +1262,14 @@ max-width: 100%;
 #comments{
 	display: inline-block;
  position: absolute;
-  top: 820px;
+  top: 780px;
   left: 10px;
 
 }
 #comment{
 	display: inline-block;
  position: absolute;
-  top: 930px;
+  top: 890px;
   left: 20px;
 
 }
