@@ -1,0 +1,228 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+    background-color: var(--main-color);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+}
+@media(max-width:997px){
+    .unpressed-button {
+        font-size: 10px;
+        width: 65px;
+        font-weight: 500;
+        margin: 10px;
+        margin-top: 20px;
+      }
+      .pressed-button {
+        font-size: 10px;
+        width: 65px;
+        font-weight: 500;
+        margin: 10px;
+        margin-top: 20px;
+      }
+    #title{
+      text-align: center;
+      padding: 0 5% 40px;
+   }
+   .home{
+    padding: 80px 15px;
+}
+.home-text h1{
+    font-size: 30px;
+ 
+}
+.home-text p{
+font-size: 20px;
+line-height: 25px;
+}
+   .Intro{ 
+   margin-top:0;
+  }
+.section-title h3{
+    font-size: 30px;
+}
+
+ .flowerIntro{
+    position: absolute;
+    top: 60px;
+   left: -60px;
+    z-index: -3;
+    width: 120px;
+}
+
+
+.map-title h1{
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+.map-title h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.map-text p{
+    font-size: 20px;
+}
+.myth-title span{
+    font-size: 30px;
+}
+.myth-list ul li{
+    font-size: 1rem;
+}
+ .section-padding{
+     padding: 60px 5% 0;
+ }
+ .myth-list{
+    padding: 10px 10% 10px 20px ;
+   }
+.social-icons{
+    padding-bottom: 20px;
+}
+
+
+}
+@media(max-width:767px){
+  
+    .home{
+        padding: 30px 15px;
+    }
+    .home-text h1{
+        font-size: 20px;
+     
+    }
+    .home-text p{
+    font-size: 15px;
+    line-height: 20px;
+    }
+    .box1{
+        display: none;
+    }
+    .section-title h3{
+        font-size: 20px;
+    }
+    .flowerIntro{
+        position: absolute;
+        top: 60px;
+       left: -60px;
+        z-index: -3;
+        width: 120px;
+    }
+    .map-title{
+        margin-bottom: 30px;
+       }
+    .map-title h1{
+        font-size: 25px;
+        font-weight: 700;
+       
+    }
+
+    .map-title h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .map-text p{
+        font-size: 17px;
+    }
+    .myth-title p{
+        font-size: 20px;
+    }
+    .myth-title p img{
+      width: 60px;
+    }
+    .myth-list ul li{
+        font-size: 15px;
+    }
+    .myth-list ul li::before{
+        font-size: 22px;
+    }
+     .section-padding{
+         padding: 60px 5% 0;
+     }
+
+     .health-issues-title h2{
+         font-size: 20px;
+
+     }
+     .health-issues-buttons div p{
+     font-size: 17px;
+   
+    }
+   
+    .app-ic img{
+        max-width: 120px;
+    }
+    .myth-title span{
+        font-size: 25px;
+    }
+    .myth-title span img{
+        width: 50px;
+        bottom: -8px;
+        }
+
+        .call-to-action .section-title p{
+            font-weight: 500;
+            font-size: 17px;
+            color: var(--primary);
+        }
+      
+}
+@media(max-width:480px){
+    .flowerIntro{
+        position: absolute;
+        top: 80px;
+       left: -30px;
+        z-index: -3;
+        width: 100px;
+    }
+    .pressed-button {
+        text-align: center;
+        width: 92px;
+        margin: 8px;
+        cursor: pointer;
+        letter-spacing: 1px !important;
+        border: none;
+        font-size: 14px;
+        border-radius: 6px;
+        font-weight: 500;
+        background: #f4f4f4;
+    
+        /* box-shadow: inset 3px 3px 5px #ceced1, inset -3px -3px 7px #ffffff; */
+        box-shadow: inset 3px 9px 22px rgb(255 255 255),
+          inset 3px 4px 8px rgb(121 130 160 / 75%),
+          inset -8px 4px 8px rgb(121 130 160 / 75%);
+      }
+      .unpressed-button {
+        position: relative;
+        border: none;
+        box-shadow: 1px 1px 4px #808080, 2px 0px 2px #808080;
+        text-align: center;
+        background: #891619;
+        /* background: #f4f4f4; */
+        color: white !important;
+        cursor: pointer;
+    
+        width: 92px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 500;
+    
+        letter-spacing: 1px !important;
+        margin: 8px;
+      }
+      .ios-play-icons {
+        position: relative;
+        box-shadow: 1px 1px 4px #808080, 2px 0px 2px #808080;
+        margin: 2px;
+        border-radius: 6px;
+        width: 120px !important;
+        cursor: pointer;
+      }
+}

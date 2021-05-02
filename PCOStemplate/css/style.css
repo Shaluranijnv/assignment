@@ -1,0 +1,391 @@
+/***********************
+global css*************/
+:root{
+    --main-color:#f4f4f4;
+    --shadow:-7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001;
+    --bg-dark:#2b2c2f;
+    --main-to-dark-color:var(--main-color);
+    --dark-to-main-color:var(--bg-dark);
+    --shadow-black-000:0 5px 15px rgba(0,0,0,0);
+    --shadow-black-100:0 5px 15px rgba(0,0,0,0.1);
+    --shadow-black-300:0 5px 15px rgba(0,0,0,0.3);
+   --shadow-white-800:-1px -1px 2px rgba(255, 255, 255, 1),1px 1px 2px rgba(255, 255, 255, 1);
+    --black-900: #000000;
+    --black-400:#555555;
+    --black-100:#f7f7f7;
+    --black-000:#ffffff;
+    --shadow-blue-300:0 5px 15px rgb(6, 196, 187,0.3);
+    --black-alpha-100:rgba(0,0,0,0.05);
+    --primary:#222162;
+    --secondary:#7e1619;;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+    background-color: var(--main-color);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+p{
+    color: var(--primary);
+}
+ul{
+    list-style: none;
+}
+
+/************************
+Navbar********************/
+
+
+
+.unpressed-button {
+    position: relative;
+  
+    box-shadow: 1px 1px 4px #808080, 2px 0px 2px #808080;
+    /* box-shadow: 6px 4px 10px #7f1417, 0px 0px 0px #93181b; */
+    background: #891619;
+    /* background: #f4f4f4; */
+    width: 92px !important;
+  
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    letter-spacing: 1px !important;
+    margin: 20px;
+    color: white !important;
+    cursor: pointer;
+  }
+  
+  .ios-play-icons {
+    position: relative;
+    box-shadow: 1px 1px 4px #808080, 2px 0px 2px #808080;
+    margin: 15px;
+    border-radius: 6px;
+    width: 120px !important;
+    cursor: pointer;
+  }
+  
+  #appstore-icon {
+    display: none;
+  }
+  #playstore-icon {
+    display: none;
+  }
+  
+  .unpressed-button:hover {
+    background-color: #f4f4f4;
+    color: black !important;
+  
+    box-shadow: inset 3px 9px 22px rgb(255 255 255),
+      inset 3px 4px 8px rgb(121 130 160 / 75%),
+      inset -8px 4px 8px rgb(121 130 160 / 75%);
+  }
+  .pressed-button {
+    text-align: center;
+    width: 92px !important;
+    margin: 20px;
+    cursor: pointer;
+    letter-spacing: 1px !important;
+    border: none;
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    background: #f4f4f4;
+    box-shadow: inset 3px 9px 22px rgb(255 255 255),
+      inset 3px 4px 8px rgb(121 130 160 / 75%),
+      inset -8px 4px 8px rgb(121 130 160 / 75%);
+  }
+  
+  .ripsey-blue {
+    color: #232263;
+  }
+  .ripsey-red {
+    color: #891619;
+  }
+  
+ 
+ 
+/*****title********/
+.box1{
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    right:0;
+    width: 100%;
+}
+.box1 img{
+    width: 100%;
+   
+}
+/************home**********/
+.home{
+    padding: 30px 15px;
+}
+
+
+#graphic{
+    padding: 0;
+    min-width: 250px;
+}
+#title{
+     padding: 70px  0px 0px 100px; 
+    display: flex;
+ 
+}
+.home-text h1{
+    font-size: 33px;
+    font-weight: 600;
+    color: var(--primary);
+    margin: 0 0 20px;
+   
+}
+.home-text p{
+font-size: 18px;
+line-height: 28px;
+color: var(--secondary);
+margin: 0;
+font-weight: 400;
+}
+/****************intro***************/
+.Intro{
+    position: relative;
+   margin-top: 200px;
+   box-sizing: border-box;
+  
+}
+.section-padding{
+    padding: 100px 7% 0;
+}
+.section-title h3{
+    color:var(--primary);
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.Intro p{
+    font-size: 17px;
+    color: var(--primary);
+
+}
+.symptoms div span {
+    font-size: 17px;
+    color: var(--primary);
+    font-weight: 500;
+   display: flex;
+   align-items: center;
+  vertical-align: middle;
+}
+
+.listflower{
+    width: 50px;
+}
+.flowerIntro{
+    position: absolute;
+    top: 95px;
+    z-index: -3;
+    left: -50px;
+    width: 120px;
+}
+
+/**********Map***********/
+.map{
+    box-sizing: border-box;
+}
+.map-title{
+ margin-bottom: 50px;
+ color: var(--primary);
+}
+.map-title h1{
+    font-size: 50px;
+    font-weight: 700;
+   
+}
+.map-title h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.map-text p{
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/***************common Myths************/
+.common-myths{
+        padding: 70px 5%;
+}
+
+.myth-title p img{
+width: 80px;
+padding-right: 10px;
+bottom: -15px;
+position: relative;
+}
+
+.myth-title p{
+    display: inline;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.myth-list ul li{
+    padding: 5px;
+    color: var(--primary);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.myth-list ul li::before{
+    padding: 8px;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+.myth-list ul li:nth-child(1)::before{
+    content: "#1";
+   
+}
+.myth-list ul li:nth-child(2)::before{
+    content: "#2";
+   
+}
+.myth-list ul li:nth-child(3)::before{
+    content: "#3";
+  
+}
+.myth-list{
+    box-shadow: -10px -10px 20px 0 rgba(255, 255, 255,0.6)
+ , 4px 4px 8px 0 rgba(68, 67, 67, 0.12);
+ padding: 10px 45% 10px 20px ;
+ border-radius: 10px;
+ width: 100%;
+}
+/********health Issues---------
+-------------*/
+.health-issues{
+    padding: 0 7% 70px;
+}
+
+.health-issues-title h2{
+    color: var(--primary);
+    font-size: 25px;
+    font-weight: 600;
+}
+.health-issues-title{
+    margin-bottom: 40px;
+}
+.health-issues-buttons div p{
+    display: flex;
+    align-items: center;
+    box-shadow: -10px -10px 20px 0 rgba(255, 255, 255,0.6)
+    , 4px 4px 8px 0 rgba(68, 67, 67, 0.12);
+     padding: 10px 5px 10px 10px; 
+   width: 100%;
+   margin: 30px 0 20px;
+   box-sizing: border-box;
+    border-radius: 10px;
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.health-issues-buttons div:nth-child(1) p::before{
+    content: url(../img/diabetes_60.png);
+}
+.health-issues-buttons div:nth-child(2) p::before{
+    content: url(../img/Cholestrol_60.png);
+}
+.health-issues-buttons div:nth-child(3) p::before{
+    content: url(../img/Fertilityissues_60.png);
+}
+.health-issues-buttons div:nth-child(4) p::before{
+    content: url(../img/otherissues_60.png);
+}
+.health-issues-buttons div p::before{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+/* ---------------------------------
+call to action--------------------
+-------------------------------- */
+.call-to-action{
+    padding: 70px 5% 90px;
+}
+.call-to-action .section-title{
+    padding-bottom: 30;
+}
+.call-to-action .section-title h3{
+    padding-bottom: 20px;
+}
+.call-to-action .section-title p{
+    font-weight: 500;
+    color: var(--primary);
+}
+.call-to-action-buttons{
+    padding: 50px 0;
+    display: flex;
+    
+}
+.qr-image{
+    padding-right: 50px;
+  
+}
+.qr-image img{
+    box-shadow: -7px -7px 14px 0 rgba(255, 255, 255,0.7)
+    , 4px 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.app-ic img{
+    max-width: 160px;
+    width: 100%;
+    box-shadow: -7px -7px 14px 0 rgba(255, 255, 255,0.5)
+    , 4px 4px 8px 0 rgba(70, 70, 70,0.5);
+    border-radius: 4px;
+}
+.app-ic img:nth-child(1){
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/*-----------footer-------*/
+.footer{
+    padding: 0 5% 50px;
+}
+.social-icons{
+    margin-right: 40px;
+}
+.social-icons span img{
+    width: 30px;
+}
+.section-title p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+
